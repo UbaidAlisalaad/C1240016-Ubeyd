@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - SUWEYS ELECTRONICS</title>
+  <style>
+    body { font-family: Arial; margin: 0; padding: 0; }
+    header, footer { background: #1e272e; color: white; padding: 15px; text-align: center; }
+    nav { background: #2f3640; text-align: center; }
+    nav a { color: white; padding: 14px 20px; display: inline-block; text-decoration: none; }
+    nav a:hover { background: #353b48; }
+    .content { padding: 30px; text-align: center; }
+    input {
+      padding: 15px;
+      margin: 10px;
+      font-size: 18px;
+      width: 70%;
+      max-width: 350px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 15px;
+      font-size: 18px;
+      width: 75%;
+      max-width: 360px;
+      cursor: pointer;
+    }
+    .content a {
+      text-decoration: none;
+      color: #3498db;
+    }
+    .content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SUWEYS ELECTRONICS</h1>
+    <p>Your Trusted Electronics Store</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="content">
+    <h2>Sign In</h2>
+    <p>Welcome back! Please sign in to access your account.</p>
+
+    <form action="#" method="post">
+      <label>
+        Username<br>
+        <input type="text" name="username" placeholder="Username" required>
+      </label><br>
+      
+      <label>
+        Password<br>
+        <input type="password" name="password" placeholder="Password" required>
+      </label><br>
+      
+      <label>
+        Your Email<br>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </label><br>
+      
+      <button type="submit">Sign In</button>
+    </form>
+
+    <p><a href="#">Forgot Password?</a></p>
+    <p><a href="#">Create New Account</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SUWEYS ELECTRONICS</p>
+  </footer>
+
+</body>
+</html>
