@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Inventory</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="displayInventory()">
 
+<!-- NAVBAR -->
 <nav>
   <h2>Inventory System</h2>
   <div>
@@ -18,17 +19,14 @@
   </div>
 </nav>
 
+<!-- CONTAINER -->
 <div class="container">
-  <h2>Contact Us</h2>
-
-  <input type="text" id="name" placeholder="Your Name">
-  <input type="email" id="email" placeholder="Your Email">
-  <textarea id="msg" placeholder="Your Message"></textarea>
-
-  <button onclick="sendMessage()">Send Message</button>
-  <p id="contactMsg"></p>
+  <h2>Inventory List</h2>
+  <ul id="productList"></ul>
 </div>
 
+<!-- JS -->
 <script src="script.js"></script>
+
 </body>
 </html>
